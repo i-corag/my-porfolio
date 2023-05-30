@@ -1,22 +1,13 @@
-* {
+:root {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-}
-
-:root {
   --dark-color: rgb(30, 30, 32);
   --ligth-color: rgb(243, 242, 249);
   --between-color: rgb(74, 75, 81);
 }
 
-html,
-body,
-main {
-  max-width: 100vw;
-  overflow-x: hidden;
-  min-height: 100vh;
-  position: relative;
+html {
   scroll-behavior: smooth;
 }
 
