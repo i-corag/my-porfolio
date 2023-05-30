@@ -1,0 +1,143 @@
+.about_wrapper {
+  width: 100%;
+  height: 100vh;
+  padding-top: 60px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about_picture {
+  width: 50%;
+  height: 250px;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  border-bottom-left-radius: 40px;
+  background-image: url('/photo.png');
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+.about_text {
+  width: 80%;
+  border-radius: 40px;
+  padding: 1em 0.5em;
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+._dark {
+  border: 5px solid var(--ligth-color);
+}
+
+._light {
+  border: 5px solid #345fbb;
+}
+
+.desktop {
+  display: none;
+}
+
+.mobile h4 {
+  font-weight: 800;
+  font-size: 1.5em;
+  letter-spacing: 7px;
+  margin-left: 0.5em;
+  padding: 1em 0;
+  margin-top: 4em;
+  color: #4a4b51;
+}
+
+.about_text_p {
+  width: 90%;
+  padding: 0 2em;
+}
+
+.about_link {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin: 1em auto 2em auto;
+}
+
+.about_link a {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.about_link a p {
+  font-weight: 400;
+  font-size: 22px;
+}
+
+.about_link a:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: #e05c37;
+  transition: left 0.8s;
+}
+.about_link a:hover:after {
+  left: 0;
+}
+
+.pic_animation {
+  animation: move-pic 2s forwards;
+}
+
+@keyframes move-pic {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@media (min-width: 720px) {
+  .about_wrapper {
+    height: 100vh;
+    flex-direction: column;
+    padding-top: 0;
+  }
+  .about_text {
+    height: 80%;
+    flex-direction: row;
+    align-items: center;
+    padding: 1em 1em;
+  }
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: block;
+  }
+  .about_text_p {
+    width: 90%;
+    padding: 2em 2em;
+  }
+  .about_picture {
+    width: 350px;
+    height: 450px;
+    top: 0;
+  }
+  .about_link {
+    width: 30%;
+    height: 90%;
+    margin-bottom: 4em;
+    justify-content: center;
+  }
+}

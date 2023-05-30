@@ -1,0 +1,146 @@
+.projects_wrapper {
+  width: 100%;
+  margin: 2em auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.project_card {
+  width: 100%;
+  height: 250px;
+  border-radius: 40px;
+  -webkit-box-shadow: 6px 1px 29px -1px rgba(0, 0, 0, 0.34);
+  box-shadow: 6px 1px 29px -1px rgba(0, 0, 0, 0.34);
+  position: relative;
+  overflow: hidden;
+}
+
+.project_link_wrapper {
+  width: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project_link {
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  z-index: 1;
+}
+
+.link_dark {
+  color: var(--ligth-color);
+}
+
+.link_light {
+  color: var(--between-color);
+}
+
+.project_link_wrapper a:hover {
+  transform: scale(1.1);
+}
+
+._1 {
+  border: 5px solid #f1ae43;
+  background-image: url('/projects-img/crypto-app.png');
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  background-size: 75%;
+}
+
+._1 p {
+  width: 40%;
+  position: absolute;
+  top: 110px;
+  right: 15px;
+  font-size: 0.9em;
+  font-weight: 400;
+  text-align: center;
+  overflow: hidden;
+}
+
+._1 .project_link_wrapper {
+  position: absolute;
+  right: 30px;
+  bottom: 7px;
+}
+
+._2 {
+  border: 5px solid #345fbb;
+  background-image: url('/projects-img/ecommerce-app.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+._2 p {
+  width: 65%;
+  height: 200px;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-size: 0.9em;
+  font-weight: 400;
+  text-align: left;
+  overflow: hidden;
+}
+
+._2 .project_link_wrapper {
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+}
+
+._3 {
+  border: 5px solid #8c9868;
+  background-image: url('/projects-img/weather-app.png');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+._3 p {
+  width: 50%;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  font-size: 1em;
+  font-weight: 400;
+  text-align: center;
+  overflow: hidden;
+}
+
+._3 .project_link_wrapper {
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
+}
+
+._4 {
+  border: 5px solid #e05c37;
+  background-image: url('/projects-img/chat-app.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+._4 p {
+  width: 60%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 1em;
+  line-height: 1.4;
+  font-weight: 400;
+  text-align: center;
+  /*color: #f1ae43;*/
+  overflow: hidden;
+}
+
+._4 .project_link_wrapper {
+  position: absolute;
+  right: 20px;
+  top: 60px;
+}
