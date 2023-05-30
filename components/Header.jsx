@@ -26,23 +26,23 @@ const Header = () => {
 
                 <u className={nav ? styles.header_nav : styles.non_visible}>
                     <li>
-                        <Link href='/#landing' scroll={false} className={styles.header_nav_link}>
+                        <Link href='/#landing' className={styles.header_nav_link}>
                             <p className={theme ? styles.link_light : styles.link_dark}>↗home</p>
                         </Link>
                     </li>
                     <li>
                         <Link
-                            href='#about' scroll={false} className={styles.header_nav_link}>
+                            href='#about' className={styles.header_nav_link}>
                             <p className={theme ? styles.link_light : styles.link_dark}>↗about</p>
                         </Link>
                     </li>
                     <li>
-                        <Link href='#work' scroll={false} className={styles.header_nav_link}>
+                        <Link href='#work' className={styles.header_nav_link}>
                             <p className={theme ? styles.link_light : styles.link_dark}>↗work</p>
                         </Link>
                     </li>
                     <li>
-                        <Link href='#contact' scroll={false} className={styles.header_nav_link}>
+                        <Link href='#contact' className={styles.header_nav_link}>
                             <p className={theme ? styles.link_light : styles.link_dark}>↗contact</p>
                         </Link>
                     </li>
