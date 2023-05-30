@@ -36,6 +36,7 @@
 
 .header_nav {
   position: absolute;
+  z-index: 10;
   left: -33px;
   top: 50px;
   list-style: none;
