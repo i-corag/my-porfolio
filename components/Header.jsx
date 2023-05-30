@@ -26,7 +26,7 @@ const Header = () => {
 
                 <u className={nav ? styles.header_nav : styles.non_visible}>
                     <li>
-                        <Link href='/#landing' className={styles.header_nav_link}>
+                        <Link href='#landing' className={styles.header_nav_link}>
                             <p className={theme ? styles.link_light : styles.link_dark}>↗home</p>
                         </Link>
                     </li>
