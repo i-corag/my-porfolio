@@ -4,9 +4,9 @@
   margin: 0;
 }
 :root {
-  --dark-color: rgb(30, 30, 32);
-  --ligth-color: rgb(243, 242, 249);
-  --between-color: rgb(74, 75, 81);
+  --dark-color: #1e1e20;
+  --ligth-color: #f3f2f9;
+  --between-color: #4a4b51;
 }
 
 html {
