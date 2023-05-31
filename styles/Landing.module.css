@@ -37,7 +37,7 @@
     #345fbb 83.333%,
     #a7489b 83.333%
   );
-  background-size: 57%;
+  background-size: 43%;
   background-repeat: repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -68,7 +68,7 @@
 @media (min-width: 720px) {
   .landing_title_light,
   .landing_title_dark {
-    font-size: 4.1em;
+    font-size: 4.4em;
     line-height: 1.2em;
     text-align: start;
   }
@@ -79,7 +79,7 @@
     font-family: 'Rubik', 'Helvetica';
     line-height: 1;
     margin: 0.5em 0;
-    font-size: 3em;
+    font-size: 3.3em;
     font-weight: 400;
     color: #345fbb;
     animation: move-text2 3s forwards;

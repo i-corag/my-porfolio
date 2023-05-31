@@ -16,7 +16,7 @@ const About = () => {
                     <p className={styles.mobile}>Hi! I&apos;m Ivana, I recently discovered my deep fascination with coding and its limitless potential to shape the future.<br />Let&apos;s collaborate to create impactful solutions and make a positive difference together!</p>
                 </div>
                 <div className={styles.about_link}>
-                    <a hfre='https://docdro.id/wGOcQ1v'
+                    <a href='https://drive.google.com/file/d/1xmsgT1eWr4dzVwc7N437FnIwpaQpGKHk/view'
                         target="_blank" rel="noopener noreferrer"
                         alt='curriculum'><p>↙resume</p>
                     </a>
