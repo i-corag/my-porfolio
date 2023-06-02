@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import styles from '@/styles/Header.module.css';
+import { BsArrowUpRight } from 'react-icons/bs'
 import { useContext, useState } from 'react';
 import ThemeToggle from './ThemeToggle';
 import { ThemeContext } from '@/context/ThemeContext';
@@ -27,23 +28,23 @@ const Header = () => {
                 <u className={nav ? styles.header_nav : styles.non_visible}>
                     <li>
                         <Link href='#landing' className={styles.header_nav_link}>
-                            <p className={theme ? styles.link_light : styles.link_dark}>↗home</p>
+                            <p className={theme ? styles.link_light : styles.link_dark}><BsArrowUpRight />home</p>
                         </Link>
                     </li>
                     <li>
                         <Link
                             href='#about' className={styles.header_nav_link}>
-                            <p className={theme ? styles.link_light : styles.link_dark}>↗about</p>
+                            <p className={theme ? styles.link_light : styles.link_dark}><BsArrowUpRight />about</p>
                         </Link>
                     </li>
                     <li>
                         <Link href='#work' className={styles.header_nav_link}>
-                            <p className={theme ? styles.link_light : styles.link_dark}>↗work</p>
+                            <p className={theme ? styles.link_light : styles.link_dark}><BsArrowUpRight />work</p>
                         </Link>
                     </li>
                     <li>
                         <Link href='#contact' className={styles.header_nav_link}>
-                            <p className={theme ? styles.link_light : styles.link_dark}>↗contact</p>
+                            <p className={theme ? styles.link_light : styles.link_dark}><BsArrowUpRight />contact</p>
                         </Link>
                     </li>
                 </u>

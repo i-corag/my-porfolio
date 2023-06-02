@@ -63,6 +63,7 @@
   justify-content: flex-end;
   align-items: flex-end;
   margin: 1em auto 2em auto;
+  text-decoration: none;
 }
 
 .about_link a {
@@ -77,9 +78,10 @@
 .about_link a p {
   font-weight: 400;
   font-size: 22px;
+  text-decoration: none;
 }
 
-.about_link a:after {
+.about .about_link a:after {
   content: '';
   position: absolute;
   bottom: 0;

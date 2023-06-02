@@ -61,7 +61,7 @@ const ProjectsMd = () => {
                         </a>
                         <a
                             className={theme ? `${styles.project_link} ${styles.link_light}` : `${styles.project_link} ${styles.link_dark}`}
-                            href=''
+                            href='https://nextjs-weather-app-phi.vercel.app'
                             alt='/'><TfiWorld size={30} />
                         </a>
                     </div>
@@ -77,11 +77,13 @@ const ProjectsMd = () => {
                             target="_blank" rel="noopener noreferrer"
                             alt='/'><BsGithub size={30} />
                         </a>
+                        {/* 
                         <a
                             className={theme ? `${styles.project_link} ${styles.link_light}` : `${styles.project_link} ${styles.link_dark}`}
                             href=''
                             alt='/'><TfiWorld size={30} />
                         </a>
+                        */}
                     </div>
                 </div>
             </div>

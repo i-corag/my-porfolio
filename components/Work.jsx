@@ -1,6 +1,7 @@
 import icons from '../data/icons'
 import { useContext } from 'react';
 import { ThemeContext } from '@/context/ThemeContext';
+import { BsArrowUpRight } from 'react-icons/bs'
 import styles from '@/styles/Work.module.css';
 import ProjectsSm from './ProjectsSm'
 import ProjectsMd from './ProjectsMd'
@@ -22,7 +23,7 @@ const Work = () => {
                             className={theme ? `${styles.link_light}` : `${styles.link_dark}`}
                             href='https://github.com/i-corag'
                             target="_blank" rel="noopener noreferrer"
-                            alt='/'>↗see more in github
+                            alt='/'><BsArrowUpRight /> more in github
                         </a>
                     </div>
                 </div>

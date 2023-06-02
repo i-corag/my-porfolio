@@ -1,5 +1,6 @@
 import { ThemeContext } from '@/context/ThemeContext';
 import { useContext } from 'react';
+import { BsArrowDownLeft } from 'react-icons/bs'
 import styles from '@/styles/About.module.css';
 
 const About = () => {
@@ -16,9 +17,10 @@ const About = () => {
                     <p className={styles.mobile}>Hi! I&apos;m Ivana, I recently discovered my deep fascination with coding and its limitless potential to shape the future.<br />Let&apos;s collaborate to create impactful solutions and make a positive difference together!</p>
                 </div>
                 <div className={styles.about_link}>
-                    <a href='https://drive.google.com/file/d/1xmsgT1eWr4dzVwc7N437FnIwpaQpGKHk/view'
+                    <a href='https://drive.google.com/file/d/1os-zJx5wpxv3xpWLPHxfYkh3btgCAprO/view?usp=share_link'
                         target="_blank" rel="noopener noreferrer"
-                        alt='curriculum'><p>↙resume</p>
+                        alt='curriculum'>
+                        <p><BsArrowDownLeft />resume</p>
                     </a>
                 </div>
             </div>
